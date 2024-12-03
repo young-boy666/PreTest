@@ -39,6 +39,15 @@ def define_dataframe_structure(column_specs):
 
 ## Function to simulate data
 def simulate_data(seed_df, n_points=100, col_specs=None, random_state=None):
+    """
+    INPUTS: seed_df   - A pandas DataFrame contining data points
+            n_points  - The number of simulated points to generate for each row of seed_df (Default value of 100)
+            col_specs - A list of dictionaries specifying the structure of the simulated data
+            random_state - A random seed to ensure reproducibility (Default value of None)
+
+        
+    """
+
     if random_state is not None:
         np.random.seed(random_state)
     
