@@ -12,6 +12,14 @@ import numpy as np
 
 ## Function to define the wanted data structure
 def define_dataframe_structure(column_specs):
+    """  
+    INPUTS:  A list of dictionaries 
+    OUTPUTS: A pandas DataFrame with the specified structure
+      
+    This function finds the maximum length (length of longest dictionary) and extends the 
+    other dictionaries to this length, by adding NANs
+       
+    """
     # Prepare data dictionary
     data = {}
     max_length = 0
