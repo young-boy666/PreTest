@@ -1,0 +1,9 @@
+###
+## cluster_maker
+## A Python package to simulate clusters of data
+## J. Foadi - University of Bath - 2024
+## File .gitignore
+###
+
+## Not interested to trace compiled things
+__pycache__/

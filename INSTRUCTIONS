@@ -1,0 +1,42 @@
+###
+## Pre-Test exercise
+## Follow the instructions in order.
+## Each instruction point allocates a maximum of marks, indicated in 
+## square brackets, [X]. Marks are allocated following clear, correct,
+## and effective coding. Originality and creativity are especially
+## valued to achieve higher marks. The maximum grade for this exercise
+## is 100.
+##
+## The current directory was cloned by your fork of jfoadi/PreTest.
+## It includes an incomplete Python package, "cluster_maker", and
+## an incomplete test file, "test_cm.py". The repository also includes
+## the instructions you are reading now, "INSTRUCTIONS".
+##
+## Carry out the following tasks, one after the other, following 
+## the numeric order. So you should attempt following instruction 2
+## only after completing instruction 1, and so on.
+##
+## 1) Modify the package in order to make "test_cm.py" run successfully.
+##    [20]
+## 2) Try and understand what the function define_dataframe_structure()
+##    does and write an appropriate, human-readable, docstring for it.
+##    [10]
+## 3) Try and understand what the function simulate_data() does and
+##    write an appropriate, human-readable, docstring for it.
+##    [10]
+## 4) Write a demo file, called "demo1_cm.py", that demonstrate
+##    the use of the three functions of the package. The type of
+##    demonstration is up to you, but it should be clear and 
+##    informative. 
+##    [10]
+## 5) Add to "data_exporter.py" a function called export_formatted()
+##    that exports the data created to a formatted text file. The
+##    formatting should make the file human-readable and informative.
+##    [20]
+## 6) Add a function, called non-globular_cluster(), to 
+##    dataframe_builder.py, that tries to simulate non-globular
+##    clusters. Similarly to simulate_data(), this function should
+##    take the seed data structure (the dataframe created by 
+##    define_dataframe_structure()) and the number of points to
+##    simulate, but also whatever parameters you think are necessary.
+##    [30]
